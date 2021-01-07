@@ -25,14 +25,15 @@ Contributions are welcome
 
 A simple usage example:
 
+ ```dart
     import 'package:remove_accentuation_extension/remove_accentuation_extension.dart';
 
     main() {
-   
-      print(('ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž').remove);
-        // prints 'AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeðCcÐIIIIiiiiUUUUuuuuNnSsYyyZz'
+    
+    print(('ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž').remove);
+    // prints 'AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeðCcÐIIIIiiiiUUUUuuuuNnSsYyyZz'
     }
-
+```
 ## Links
 
 - [source code][source]
