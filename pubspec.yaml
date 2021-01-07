@@ -1,6 +1,6 @@
 name: remove_accentuation_extension
 description: Remove accents, in a simple way quickly using the extension.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/matheusperez/remove_accentuation_extension
 
 environment:

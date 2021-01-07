@@ -3,6 +3,9 @@ import 'constants.dart';
 class Helper {
   Helper._();
   static String removeDiacritics(String str) {
+    if (str == null) {
+      return str;
+    }
     final diacriticsMap = {};
 
     if (diacriticsMap.isEmpty) {
